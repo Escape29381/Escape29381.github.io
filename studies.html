@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyWebsite</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="jquery.min.js" defer="defer" type="text/javascript" charset="utf-8"></script>
+  	<script src="js.js" defer="defer" type="text/javascript" charset="utf-8"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="studies_css.css"/>
+  </head>
+  <body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" height="50" width="50">
+      Tang's Website
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" aria-current="page" href="myWebsite.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="studies.html">Studies</a>
+        <a class="nav-link" aria-current="page" href="works.html">Works</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- title -->
+<div class="title1">
+  <img src="img/ppt_portfolio.png" alt="" style="width:"250px";height:"auto"">
+</div>
+<!-- carousel -->
+<div class="out col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+    <ul>
+        <li class="images">
+            <img src="img/ppt1.png">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h2>市场调查在中国的发展</h2>
+                    <h3>——1988年伊始至今</h3>
+                    <a href="ppt1.html" class="btn btn-outline-light" style="font-family: 'Koulen', cursive;">Click to Read</a>
+                </div>
+            </div>
+        </li>
+        <li class="images">
+            <img src="img/ppt2.png">
+            <div class="overlay">
+                <div class="overlay-content">
+                  <h2>“纯粹悦时空”</h2>
+                  <h3>——喜茶市场营销提案</h3>
+                  <a href="ppt2.html" class="btn btn-outline-light" style="font-family: 'Koulen', cursive;">Click to Read</a>
+                </div>
+            </div>
+        </li>
+        <li class="images">
+            <img src="img/ppt3.png">
+            <div class="overlay">
+                <div class="overlay-content">
+                  <h2>改革开放以来的广告历史</h2>
+                  <h3>——以上海商业广告为例</h3>
+                  <a href="ppt3.html" class="btn btn-outline-light" style="font-family: 'Koulen', cursive;">Click to Read</a>
+                </div>
+            </div>
+        </li>
+        <li class="images">
+            <img src="img/ppt4.png">
+            <div class="overlay">
+                <div class="overlay-content">
+                  <h2>我想要的公平都是不公们虚构的</h2>
+                  <h3>——《拉丁美洲被切开的血管》读书报告</h3>
+                  <a href="ppt4.html" class="btn btn-outline-light" style="font-family: 'Koulen', cursive;">Click to Read</a>
+                </div>
+            </div>
+        </li>
+        <li class="images">
+            <img src="img/ppt5.png">
+            <div class="overlay">
+                <div class="overlay-content">
+                  <h2>以网络综艺节目为媒介的乐队形象营销历史探究</h2>
+                  <h3>——以五条人乐队为例</h3>
+                  <a href="ppt5.html" class="btn btn-outline-light" style="font-family: 'Koulen', cursive;">Click to Read</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <p class="anNiu" id="anNiu1" onclick="dianJi(1)">&lt;</p>
+    <p class="anNiu" id="anNiu2" onclick="dianJi(0)">&gt;</p>
+    <ol>
+        <li class="anNius" onclick="anNius(0)"></li>
+        <li class="anNius" onclick="anNius(1)"></li>
+        <li class="anNius" onclick="anNius(2)"></li>
+        <li class="anNius" onclick="anNius(3)"></li>
+        <li class="anNius" onclick="anNius(4)"></li>
+    </ol>
+</div>
+
+<div class="part2">
+  <!-- title -->
+  <div class="title2">
+      <img src="img/essay_portfolio.png" alt="" style="width: 250px; height: auto;">
+  </div>
+  <!-- card -->
+  <div class="essay">
+    <div class="container1" style="p-5">
+      <div class="card mb-5" style="margin-top:-60px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/fengmian1.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">“喜”从何来——喜茶数字营销研究报告</h5>
+              <p class="card-text">本文通过对宏观和微观环境的分析，揭示了品牌所面临的挑战和机遇。分析了品牌提升品质、激发喜悦的发展目标，并探讨了营销战略和战术的实施。具体包括刺激用户转化复购的总体战略和各种数字营销活动的具体策略。
+                最后提出了打造拟人化IP、建立情感连接等建议，以拉近品牌与消费者之间的距离，有效传递品牌理念和价值，实现品牌的市场竞争力提升。</p>
+              <a href="essay1.html" class="btn btn-outline-success custom-btn" style="font-family: 'Koulen', cursive;">Click To Read</a>            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1" style="p-5">
+      <div class="card mb-5" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/fengmian2.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">互联网时代的数字交往趋向：社交媒体圈层化</h5>
+              <p class="card-text">社交媒体圈层化是当下互联网时代中数字交往的一个重要趋势，体现为互联网上的用户在社交媒体平台上构建了大量个性化社群，用于沟通交流、建立联系。本文探讨了社交媒体的圈层化现状和特点、形成原因及其影响，指出了社交媒体圈层化导致的积极影响和消极影响，旨在帮助社会构建更为健康、开放的互联网环境。</p>
+              <a href="essay2.html" class="btn btn-outline-success custom-btn" style="font-family: 'Koulen', cursive;">Click To Read</a>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1" style="p-5">
+      <div class="card mb-5">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/fengmian3.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Z世代网络沟通方式与话语体系研究</h5>
+              <p class="card-text">Z世代作为第一代“数字原住民”，其相较于其他世代在网络沟通中占据了独特的地位。本文探讨了Z世代网络沟通的表达方式与话语体系建构过程，指出Z世代网络沟通的特点、形成的原因及其产生的影响。研究Z世代在网络沟通中的地位具有重要的意义和价值，可以更好地了解他们的沟通方式、消费行为和生活方式，加强对Z世代的针对性了解，更好地适应和引领未来社会的发展趋势。</p>
+              <a href="essay3.html" class="btn btn-outline-success custom-btn" style="font-family: 'Koulen', cursive;">Click To Read</a>            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

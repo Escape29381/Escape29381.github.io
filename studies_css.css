@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.out>ul{
+	position: relative;
+	margin: 0px auto;
+	width: 960px;
+	height: 709px;
+	transform: scale(0.6);
+}
+.out>ul>li{
+	position: absolute;
+	opacity: 0;
+	transition: all,1s;
+}
+.out>ul>li:hover{
+	cursor: pointer;
+}
+.out>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.out>.anNiu{
+	position: absolute;
+	top: 280px;
+	width: 50px;
+	line-height: 100px;
+}
+.out>.anNiu:hover{
+	cursor: pointer;
+}
+
+.out>ol{
+	display: none;
+}
+.out>ol>li{
+	background-color: ghostwhite;
+	width: 10px ;
+	height: 10px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.out>ol::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+  background-color: rgb(209,231,221);
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+		top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 50%;
+    background-color: rgba(64,89,74, 0.9);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.images:hover .overlay {
+    opacity: 1;
+}
+
+
+.anNiu {
+    background-color: #40594A;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+		outline: none !important;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#anNiu1 {
+		left: 30px;
+}
+
+#anNiu2 {
+		right: 30px;
+}
+
+
+.anNiu:hover {
+    background-color: #749F85;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(64,89,74, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.overlay-content h2,
+.overlay-content h3,
+.overlay-content button {
+    margin-bottom: 10px;
+}
+
+.anNiu {
+    font-size: 20px;
+		margin: 0 10px;
+}
+
+.title1 img{
+	width:250px;
+	height:auto;
+}
+.title1 {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+.title2 {
+	position: absolute;
+  top: calc(70% + 20px);
+  left: 50px;
+}
+.title2 img{
+	width:250px;
+	height:auto;
+}
+.out {
+	position: relative;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+	height:80%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 758px) {
+
+    .overlay-content {
+        padding: 10px;
+    }
+
+		.out>.anNiu{
+			position: absolute;
+			top: 280px;
+			width: 25px;
+			line-height: 50px;
+		}
+
+		.out>ol{
+			position: absolute;
+		  top: calc(90% - 150px);
+		  left: 50%;
+		  transform: translateX(-50%);
+		}
+
+    .anNiu {
+        font-size: 10px;
+				margin: 0 5px;
+    }
+		#anNiu1{
+			left: 10px;
+		}
+		#anNiu2{
+			right:10px;
+		}
+		.overlay {
+		    position: absolute;
+		    width: 100%;
+		    height: 60%;
+		    background-color: rgba(64,89,74, 0.9);
+		    color: white;
+		    opacity: 0;
+		    transition: opacity 0.3s;
+		}
+		.title2 {
+			position: absolute;
+		  top: calc(60% + 30px);
+		  left: 50px;
+		}
+		.essay {
+		    margin-top: -180px;
+		}
+}
+
+.card {
+    margin-top: -30px;
+    max-width: 1080px;
+    margin-left: 40px ;
+		margin-right: 40px;
+		margin-top:20px;
+}
+
+.essay {
+    margin-top: -40px;
+}
+.card-title{
+		font-weight: bold;
+		color:rgb(64,89,74);
+}
+.custom-btn {
+		color:rgb(64,89,74);
+		margin-top: -12px;
+		margin-bottom: -8px;
+}
+.custom-btn:hover {
+	  background-color:rgb(64,89,74);
+}
+</style>

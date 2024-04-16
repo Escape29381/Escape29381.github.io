@@ -1,0 +1,55 @@
+.card {
+  max-width: 370px;
+  margin: 0 auto;
+}
+.flex-container {
+            display: flex;
+            align-items: center;
+        }
+.flex-container h2 {
+            padding-left: 50px;
+            margin: 0;
+        }
+.flex-container h5 {
+  margin-top:12px;
+}
+#carouselExampleDark {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.carousel-item.active img {
+    display: block;
+    margin: 0 auto;
+}
+.full-width-img {
+  width: 100%;
+  height: auto;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+body{
+  background-color: rgb(209,231,221);
+}
+.carousel-caption h1{
+  color: grey;
+  font-weight: bold;
+  font-family: 'Georgia';
+}
+.carousel-caption h4 {
+  color: grey;
+  font-family: 'Georgia';
+}
+div.col-xs-12 h2,
+div.col-xs-12 h3,
+div.col-xs-12 h5,
+div.col-xs-12 h7 {
+  font-family: 'Georgia';
+}
+.title{
+  font-weight: bold;
+  font-family: 'STXingkai';
+}
+.carousel-item img {
+    width: 80%;
+}
